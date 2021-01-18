@@ -1,0 +1,962 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1407220144, guid: abf3c058d94959640bec02372a894b38, type: 3}
+  m_Name: SaveManager
+  m_EditorClassIdentifier: 
+  fileCache:
+    stamp: by 5fa7d063b173f3000866bd15 at Tuesday, 24 November 2020 1:44:33 AM
+    appId: 5fa7d187b755380008c33faf
+    appName: Voyage Relax Travel
+    versionId: 5fa7d187b755380008c33fb0
+    versionStatus: 0
+    versionSeq: 0
+    sdkRev: 2000
+    scenesList:
+    - sceneName: AdCityScene
+      id: 5fab92d1f8c01d00085e444a
+      currentScenePath: Assets/Scenes/AdCityScene.unity
+      pathsHistory:
+      - Assets/Scenes/AdCityScene.unity
+      placementsList:
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 1902256707
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12788
+        placementName: wqS2qWBSK0CMYFVm9CPe
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 480}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9fb7cea8d42a8b60ac7
+        idInFile: 732888394
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12789
+        placementName: mPnec4kpBGFuisqIrUe3
+        placementDisplayName: Video_16x9
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 360}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 1918693442
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278a
+        placementName: IwyDp2uqAzsZiMDIaPFe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 320, y: 50}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 800417384
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278b
+        placementName: 5dJ4D1Fsztfti8PHTK7q
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 475707079
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278c
+        placementName: UCdgp8nZq1ibBUk5c4ve
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 1661923681
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278d
+        placementName: gjpFD7y1pU6GBfw5VYWq
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 160, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 377843759
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278e
+        placementName: C1A6R6I3nOSaBzJ4ETmC
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1034342171
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278f
+        placementName: sp5iDcryelVSUmeqXcMr
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 268392757
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12790
+        placementName: P7gHRbBAdeInUHqqG8cD
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 728, y: 90}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 1129561482
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12791
+        placementName: EvKUDhk85LL6euVMZpCr
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 480}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 1902293101
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12792
+        placementName: 2cVkQgu94FyzeO9MIk3D
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 1780240678
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12793
+        placementName: nT7J5fFa3zk5d0kLrftP
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 238250641
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12794
+        placementName: diBWQmoHT7oMxWP9KySD
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 1081013696
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12795
+        placementName: zZMm5lyIR1agxg29ttjP
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 728, y: 90}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 741962994
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12796
+        placementName: VGXLikJKQUXLxBe8coK2
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1957530206
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12797
+        placementName: L6rY5qrhHr1tQoJuvH0P
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 1565651126
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12798
+        placementName: 8MDoipCiGkNXQJVueCA2
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 160, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 877962488
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279a
+        placementName: jSi1hvvQwLDa0QCQgPq3
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 852585013
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279b
+        placementName: GzupvuFSuFqE0bPPZKRe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 320, y: 50}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 670019573
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7a
+        placementName: lmjlRcBcI0DkfodDYNPd
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1331346878
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7b
+        placementName: H4uL6bLeH4qOfJpCHIgp
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1231839882
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7c
+        placementName: xsYXRiuKyAtwywUZ12Fd
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+  projectScanCache:
+    stamp: 
+    appId: 5fa7d187b755380008c33faf
+    appName: Voyage Relax Travel
+    versionId: 
+    versionStatus: 0
+    versionSeq: 0
+    sdkRev: 2000
+    scenesList:
+    - sceneName: AdCityScene
+      id: 5fab92d1f8c01d00085e444a
+      currentScenePath: Assets/Scenes/AdCityScene.unity
+      pathsHistory: []
+      placementsList:
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 1902256707
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12788
+        placementName: wqS2qWBSK0CMYFVm9CPe
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 480}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9fb7cea8d42a8b60ac7
+        idInFile: 732888394
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12789
+        placementName: mPnec4kpBGFuisqIrUe3
+        placementDisplayName: Video_16x9
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 360}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 1918693442
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278a
+        placementName: IwyDp2uqAzsZiMDIaPFe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 320, y: 50}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 800417384
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278b
+        placementName: 5dJ4D1Fsztfti8PHTK7q
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 475707079
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278c
+        placementName: UCdgp8nZq1ibBUk5c4ve
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 1661923681
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278d
+        placementName: gjpFD7y1pU6GBfw5VYWq
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 160, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 377843759
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278e
+        placementName: C1A6R6I3nOSaBzJ4ETmC
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1034342171
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278f
+        placementName: sp5iDcryelVSUmeqXcMr
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 268392757
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12790
+        placementName: P7gHRbBAdeInUHqqG8cD
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 728, y: 90}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 1129561482
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12791
+        placementName: EvKUDhk85LL6euVMZpCr
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 640, y: 480}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 1902293101
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12792
+        placementName: 2cVkQgu94FyzeO9MIk3D
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 1780240678
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12793
+        placementName: nT7J5fFa3zk5d0kLrftP
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 238250641
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12794
+        placementName: diBWQmoHT7oMxWP9KySD
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 1081013696
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12795
+        placementName: zZMm5lyIR1agxg29ttjP
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 728, y: 90}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 741962994
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12796
+        placementName: VGXLikJKQUXLxBe8coK2
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1957530206
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12797
+        placementName: L6rY5qrhHr1tQoJuvH0P
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 1565651126
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12798
+        placementName: 8MDoipCiGkNXQJVueCA2
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 160, y: 600}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 877962488
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279a
+        placementName: jSi1hvvQwLDa0QCQgPq3
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 852585013
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279b
+        placementName: GzupvuFSuFqE0bPPZKRe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 320, y: 50}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 670019573
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7a
+        placementName: lmjlRcBcI0DkfodDYNPd
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 970, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1331346878
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7b
+        placementName: H4uL6bLeH4qOfJpCHIgp
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+      - isSavedPlacement: 1
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 1231839882
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7c
+        placementName: xsYXRiuKyAtwywUZ12Fd
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 300, y: 250}
+  remoteCache:
+    stamp: 
+    appId: 5fa7d187b755380008c33faf
+    appName: Voyage Relax Travel
+    versionId: 5fa7d187b755380008c33fb0
+    versionStatus: 0
+    versionSeq: 0
+    sdkRev: 
+    scenesList:
+    - sceneName: AdCityScene
+      id: 5fab92d1f8c01d00085e444a
+      currentScenePath: 
+      pathsHistory: []
+      placementsList:
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12788
+        placementName: wqS2qWBSK0CMYFVm9CPe
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9fb7cea8d42a8b60ac7
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12789
+        placementName: mPnec4kpBGFuisqIrUe3
+        placementDisplayName: Video_16x9
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278a
+        placementName: IwyDp2uqAzsZiMDIaPFe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278b
+        placementName: 5dJ4D1Fsztfti8PHTK7q
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278c
+        placementName: UCdgp8nZq1ibBUk5c4ve
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278d
+        placementName: gjpFD7y1pU6GBfw5VYWq
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278e
+        placementName: C1A6R6I3nOSaBzJ4ETmC
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278f
+        placementName: sp5iDcryelVSUmeqXcMr
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12790
+        placementName: P7gHRbBAdeInUHqqG8cD
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12791
+        placementName: EvKUDhk85LL6euVMZpCr
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12792
+        placementName: 2cVkQgu94FyzeO9MIk3D
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12793
+        placementName: nT7J5fFa3zk5d0kLrftP
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12794
+        placementName: diBWQmoHT7oMxWP9KySD
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12795
+        placementName: zZMm5lyIR1agxg29ttjP
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12796
+        placementName: VGXLikJKQUXLxBe8coK2
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12797
+        placementName: L6rY5qrhHr1tQoJuvH0P
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12798
+        placementName: 8MDoipCiGkNXQJVueCA2
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279a
+        placementName: jSi1hvvQwLDa0QCQgPq3
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279b
+        placementName: GzupvuFSuFqE0bPPZKRe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9fb7cea8d42a8b60ac7
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f1279c
+        placementName: wYYChAoplctntYkci4g3
+        placementDisplayName: Video_16x9
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7a
+        placementName: lmjlRcBcI0DkfodDYNPd
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7b
+        placementName: H4uL6bLeH4qOfJpCHIgp
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7c
+        placementName: xsYXRiuKyAtwywUZ12Fd
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+  remotePostSaveCache:
+    stamp: 
+    appId: 5fa7d187b755380008c33faf
+    appName: Voyage Relax Travel
+    versionId: 5fa7d187b755380008c33fb0
+    versionStatus: 0
+    versionSeq: 0
+    sdkRev: 
+    scenesList:
+    - sceneName: AdCityScene
+      id: 5fab92d1f8c01d00085e444a
+      currentScenePath: 
+      pathsHistory: []
+      placementsList:
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12788
+        placementName: wqS2qWBSK0CMYFVm9CPe
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9fb7cea8d42a8b60ac7
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12789
+        placementName: mPnec4kpBGFuisqIrUe3
+        placementDisplayName: Video_16x9
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278a
+        placementName: IwyDp2uqAzsZiMDIaPFe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278b
+        placementName: 5dJ4D1Fsztfti8PHTK7q
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278c
+        placementName: UCdgp8nZq1ibBUk5c4ve
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278d
+        placementName: gjpFD7y1pU6GBfw5VYWq
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278e
+        placementName: C1A6R6I3nOSaBzJ4ETmC
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1278f
+        placementName: sp5iDcryelVSUmeqXcMr
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12790
+        placementName: P7gHRbBAdeInUHqqG8cD
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9e47cea8d42a8b60ac6
+        idInFile: 0
+        placementType: 1
+        placementId: 5fab92d5eda2d60008f12791
+        placementName: EvKUDhk85LL6euVMZpCr
+        placementDisplayName: Video_4x3
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9657cea8d42a8b60ac4
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12792
+        placementName: 2cVkQgu94FyzeO9MIk3D
+        placementDisplayName: Banner_1x2
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12793
+        placementName: nT7J5fFa3zk5d0kLrftP
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12794
+        placementName: diBWQmoHT7oMxWP9KySD
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9437cea8d42a8b60ac2
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12795
+        placementName: zZMm5lyIR1agxg29ttjP
+        placementDisplayName: Banner_364x45
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12796
+        placementName: VGXLikJKQUXLxBe8coK2
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12797
+        placementName: L6rY5qrhHr1tQoJuvH0P
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9587cea8d42a8b60ac3
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f12798
+        placementName: 8MDoipCiGkNXQJVueCA2
+        placementDisplayName: Banner_4x15
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279a
+        placementName: jSi1hvvQwLDa0QCQgPq3
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e90e7cea8d42a8b60ac1
+        idInFile: 0
+        placementType: 0
+        placementId: 5fab92d5eda2d60008f1279b
+        placementName: GzupvuFSuFqE0bPPZKRe
+        placementDisplayName: Banner_32x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e9757cea8d42a8b60ac5
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7a
+        placementName: lmjlRcBcI0DkfodDYNPd
+        placementDisplayName: Banner_97x25
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7b
+        placementName: H4uL6bLeH4qOfJpCHIgp
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+      - isSavedPlacement: 0
+        invalidReason: 
+        modelKey: 5ee7e8d47cea8d42a8b60ac0
+        idInFile: 0
+        placementType: 0
+        placementId: 5fbbcacd3bd53b00094c5d7c
+        placementName: xsYXRiuKyAtwywUZ12Fd
+        placementDisplayName: Banner_6x5
+        sceneId: 5fab92d1f8c01d00085e444a
+        textureResolution: {x: 0, y: 0}
+  placementsToHide: []
